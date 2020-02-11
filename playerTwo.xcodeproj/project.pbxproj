@@ -19,7 +19,8 @@
 		D06DE86F23EEC5AD004E85EE /* Genres.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06DE86E23EEC5AD004E85EE /* Genres.swift */; };
 		D092F3FB23ECFE5E0023C7DD /* ProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D092F3FA23ECFE5E0023C7DD /* ProfilePictureView.swift */; };
 		D09A716523EAA4F3005ABEC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09A716423EAA4F3005ABEC9 /* ContentView.swift */; };
-		D0D0CA8123EB4A700039E042 /* CharCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0CA8023EB4A700039E042 /* CharCreationView.swift */; };
+		D0E0F43123F2631500973C1B /* CharacterCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0F43023F2631500973C1B /* CharacterCreationView.swift */; };
+		D0E0F43323F26A1800973C1B /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0F43223F26A1700973C1B /* MotherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +37,9 @@
 		D06DE86C23EEBFE2004E85EE /* InterestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsView.swift; sourceTree = "<group>"; };
 		D06DE86E23EEC5AD004E85EE /* Genres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genres.swift; sourceTree = "<group>"; };
 		D092F3FA23ECFE5E0023C7DD /* ProfilePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureView.swift; sourceTree = "<group>"; };
-		D09A716423EAA4F3005ABEC9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Desktop/ContentView.swift; sourceTree = "<group>"; };
-		D0D0CA8023EB4A700039E042 /* CharCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharCreationView.swift; sourceTree = "<group>"; };
+		D09A716423EAA4F3005ABEC9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Desktop/ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		D0E0F43023F2631500973C1B /* CharacterCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCreationView.swift; sourceTree = "<group>"; };
+		D0E0F43223F26A1700973C1B /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +78,10 @@
 				D06DE86C23EEBFE2004E85EE /* InterestsView.swift */,
 				D06DE86A23EEBB58004E85EE /* LFView.swift */,
 				D06DE86823EEB9F5004E85EE /* PasswordView.swift */,
+				D0E0F43023F2631500973C1B /* CharacterCreationView.swift */,
 				D06DE86623EEB782004E85EE /* EmailView.swift */,
 				D092F3FA23ECFE5E0023C7DD /* ProfilePictureView.swift */,
-				D0D0CA8023EB4A700039E042 /* CharCreationView.swift */,
+				D0E0F43223F26A1700973C1B /* MotherView.swift */,
 				D09A716423EAA4F3005ABEC9 /* ContentView.swift */,
 				A870F91623D1260800331BD0 /* Assets.xcassets */,
 				A870F91B23D1260800331BD0 /* LaunchScreen.storyboard */,
@@ -171,14 +174,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A870F91123D1260500331BD0 /* AppDelegate.swift in Sources */,
+				D0E0F43323F26A1800973C1B /* MotherView.swift in Sources */,
 				D06DE86F23EEC5AD004E85EE /* Genres.swift in Sources */,
 				D06DE86923EEB9F5004E85EE /* PasswordView.swift in Sources */,
 				D09A716523EAA4F3005ABEC9 /* ContentView.swift in Sources */,
 				A870F91323D1260500331BD0 /* SceneDelegate.swift in Sources */,
 				D06DE86B23EEBB58004E85EE /* LFView.swift in Sources */,
 				D092F3FB23ECFE5E0023C7DD /* ProfilePictureView.swift in Sources */,
-				D0D0CA8123EB4A700039E042 /* CharCreationView.swift in Sources */,
 				D06DE86D23EEBFE2004E85EE /* InterestsView.swift in Sources */,
+				D0E0F43123F2631500973C1B /* CharacterCreationView.swift in Sources */,
 				D06DE86723EEB782004E85EE /* EmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
